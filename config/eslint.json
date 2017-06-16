@@ -1,0 +1,6 @@
+# Print the configuration that we're using. If there's a custom configuration
+# present, print that; if not, print the default configuration.
+rake eslint:print_config
+
+# Or print the default configuration even if a custom one exists.
+rake eslint:print_config[true]
