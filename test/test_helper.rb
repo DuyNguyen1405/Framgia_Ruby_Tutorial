@@ -1,4 +1,3 @@
-<<<<<<< 4c0d7724d590160d16129851e8fa7df24392387b
 ENV["RAILS_ENV"] ||= "test"
 require File.expand_path("../../config/environment", __FILE__)
 require "rails/test_help"
