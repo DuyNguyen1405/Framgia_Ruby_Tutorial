@@ -22,3 +22,9 @@
 
 # Ignore report
 .framgia-ci-reports/*
+/config/settings.local.yml
+/config/settings/*.yml
+/config/environments/*.local.yml
+
+# Ignore gemfile.lock
+Gemfile.lock
