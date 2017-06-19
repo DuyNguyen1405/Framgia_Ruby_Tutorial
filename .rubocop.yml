@@ -13,8 +13,25 @@ Style/ClassAndModuleChildren:
 Documentation:
     Enabled: false
 
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Layout/AlignHash:
+  EnforcedLastArgumentHashStyle: always_ignore
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/GuardClause:
+  MinBodyLength: 5
+
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines
+
 AllCops:
   Exclude:
-    - "config/**"
+    - "config/**/*"
     - "app/channels/application_cable/connection.rb"
     - "app/channels/application_cable/channel.rb"
+    - "bin/**/*"
+    - "db/**/*"

@@ -32,13 +32,13 @@ en:
     This is the home page for
     <a href="http://www.railstutorials.org">Ruby on Rails Tutorial</a>
     sample application.
-  help_content: | 
+  help_content: |
     Get help on the Ruby on Rails Tutorial at the
     <a href="http://www.railstutorials.org/help">Rails Tutorial help page</a>.
     To get help on this sample app, see the
     <a href="http://www.railstutorials.org/book"><em>Ruby on Rails Tutorial</em>
     book</a>.
-  about_content: | 
+  about_content: |
     The <a href="http://www.railstutorial.org/"><em>Ruby on Rails
     Tutorial</em></a> is a
     <a href="http://www.railstutorial.org/book">book</a> and
@@ -46,3 +46,12 @@ en:
     to teach web development with
     <a href="http://rubyonrails.org/">Ruby on Rails</a>.
     This is the sample application for the tutorial.
+  error: error
+  name2: Name
+  password: Password
+  email: Email
+  confirmation: Confirmation
+  create: Create my account
+  welcome: Welcome
+  not_found: User not found
+  the_form_contains: The form contains

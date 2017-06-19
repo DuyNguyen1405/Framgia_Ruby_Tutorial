@@ -2,6 +2,7 @@ require "test_helper"
 
 # The Dummy class is responsible for
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
+
   def setup
     @base_title = t "title"
   end
@@ -23,4 +24,5 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "title", "About | #{@base_title}"
   end
+
 end
