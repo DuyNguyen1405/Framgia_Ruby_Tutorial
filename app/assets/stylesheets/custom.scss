@@ -12,10 +12,6 @@ section {
   overflow: auto;
 }
 
-textarea {
-  resize: vertical;
-}
-
 .center {
   text-align: center;
 
@@ -110,5 +106,81 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+}
+
+$gray-medium-light: #eaeaea;
+
+@mixin box-sizing {
+  box-sizing: border-box;
+}
+
+aside {
+
+  section {
+    margin-top: 20px;
+    padding: 10px 0;
+
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+
+    span {
+      display: block;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
+    h1 {
+      font-size: 1.4em;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+}
+
+$input-color: #bbb;
+
+input {
+  @include box-sizing;
+  border: 1px solid $input-color;
+  height: auto;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+textarea {
+  @include box-sizing;
+  border: 1px solid $input-color;
+  margin-bottom: 15px;
+  resize: vertical;
+  width: 100%;
+}
+
+select {
+  @include box-sizing;
+  border: 1px solid $input-color;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.uneditable-input {
+  @include box-sizing;
+  border: 1px solid $input-color;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+$error-exp: #000;
+
+.error-explanation {
+  color: $error-exp;
+
+  ul {
+    color: $error-exp;
+    margin: 0 0 30px;
   }
 }
