@@ -11,7 +11,7 @@ Style/ClassAndModuleChildren:
   EnforcedStyle: compact
 
 Documentation:
-    Enabled: false
+  Enabled: false
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
@@ -27,6 +27,12 @@ Style/GuardClause:
 
 Layout/EmptyLinesAroundClassBody:
   EnforcedStyle: empty_lines
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
 
 AllCops:
   Exclude:

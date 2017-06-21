@@ -55,3 +55,9 @@ en:
   welcome: Welcome
   not_found: User not found
   the_form_contains: The form contains
+  users: Users
+  account: Account
+  profile: Profile
+  settings: Settings
+  log_out: Log out
+  invalid_email_password: Invalid email/password combination
