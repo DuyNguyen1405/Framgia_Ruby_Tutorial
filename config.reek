@@ -1,12 +1,6 @@
 IrresponsibleModule:
   enabled: false
 
-TooManyStatements:
-  enabled: true
-  exclude:
-  - initialize
-  max_statements: 10
-
 "app/controllers":
   IrresponsibleModule:
     enabled: false

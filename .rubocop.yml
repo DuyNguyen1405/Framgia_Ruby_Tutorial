@@ -1,7 +1,3 @@
-inherit_from:
-  - .rubocop_enabled.yml
-  - .rubocop_disabled.yml
-
 Style/Encoding:
   Enabled: false
 
