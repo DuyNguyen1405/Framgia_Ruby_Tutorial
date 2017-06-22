@@ -5,6 +5,9 @@ inherit_from:
 Style/Encoding:
   Enabled: false
 
+Style/InverseMethods:
+  Enabled: false
+
 Metrics/LineLength:
   Max: 199
 
