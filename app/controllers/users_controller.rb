@@ -10,6 +10,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.newest_first.paginate page: params[:page],
+      per_page: Settings.per_page
   end
 
   def new
@@ -45,19 +47,23 @@ class UsersController < ApplicationController
     redirect_to root_url
   end
 
+  def following
+    @title = t "following"
+    @users = @user.following.paginate page: params[:page]
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "followers"
+    @users = @user.followers.paginate page: params[:page]
+    render "show_follow"
+  end
+
   private
 
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "please_log_in."
-      redirect_to login_url
-    end
   end
 
   def find_user
@@ -69,7 +75,7 @@ class UsersController < ApplicationController
   end
 
   def correct_user
-    redirect_to root_url unless @user == current_user
+    redirect_to root_url unless current_user?(@user)
   end
 
   def admin_user

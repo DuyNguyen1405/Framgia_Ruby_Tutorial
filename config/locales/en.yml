@@ -87,3 +87,11 @@ en:
   can_not_empty: Can't be empty
   password_has_been_reset: Password has been reset.
   expired: Password reset has expired
+  ago: ago
+  new_microposts: New micropost
+  microposts: Microposts
+  created: Created
+  view_my_profile: view my profile
+  create: create
+  micropost_feed: Microposts feed
+  fail_to_create: Fail to create micropost
