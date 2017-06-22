@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "Hello"
   title: "Ruby on Rails Tutorial Sample App"
   home: "Home"
   about: "About"
@@ -72,3 +72,9 @@ en:
   delete: Delete
   you_sure: You sure?
   user_deleted: User deleted
+  check_email: Please check your email to activate your account.
+  account_not_activated: Account not activated.
+  account_activation: Account activation
+  activate: Activate
+  activated: Account activated!
+  invalid_activation: "Invalid activation link"
