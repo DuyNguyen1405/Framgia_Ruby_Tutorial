@@ -62,3 +62,13 @@ en:
   log_out: Log out
   invalid_email_password: Invalid email/password combination
   remember_me: Remember me on this computer
+  edit: Edit user
+  update_profile: Update your profile
+  save_changes: Save changes
+  create_account: Create my account
+  profile_updated: Profile updated
+  please_log_in: Please log in.
+  all_users: All users
+  delete: Delete
+  you_sure: You sure?
+  user_deleted: User deleted

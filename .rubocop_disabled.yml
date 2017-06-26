@@ -20,7 +20,7 @@ Style/Documentation:
   Description: "Document classes and non-namespace modules."
   Enabled: false
 
-Style/EmptyLinesAroundAccessModifier:
+Layout/EmptyLinesAroundAccessModifier:
   Description: "Keep blank lines around access modifiers."
   Enabled: false
 
@@ -40,7 +40,7 @@ Metrics/ModuleLength:
   Description: "Avoid modules longer than 100 lines of code."
   Enabled: false
 
-Style/AlignHash:
+Layout/AlignHash:
   Description: "Align the elements of a hash literal if they span more than one line."
   Enabled: false
 
@@ -77,7 +77,7 @@ Metrics/CyclomaticComplexity:
 Metrics/AbcSize:
   Enabled: false
 
-Style/AlignArray:
+Layout/AlignArray:
   Description: >-
                  Align the elements of an array literal if they span more than
                  one line.
@@ -125,7 +125,7 @@ Style/StabbyLambdaParentheses:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#stabby-lambda-with-args'
   Enabled: false
 
-Style/ElseAlignment:
+Layout/ElseAlignment:
   Enabled: false
 
 Style/MutableConstant:
@@ -195,7 +195,7 @@ Performance/StringReplacement:
   Reference: 'https://github.com/JuanitoFatas/fast-ruby#stringgsub-vs-stringtr-code'
   Enabled: false
 
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
     Enabled: false
 
 Bundler/OrderedGems:

@@ -27,3 +27,4 @@ TooManyStatements:
 
 exclude_paths:
   - db
+  - app
