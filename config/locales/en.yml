@@ -78,3 +78,12 @@ en:
   activate: Activate
   activated: Account activated!
   invalid_activation: "Invalid activation link"
+  forgot_password: Forgot password
+  email_sent: Email sent with password reset instructions
+  email_not_found: Email address not found
+  password_reset: Password reset
+  submit: Submit
+  update_password: Update password
+  can_not_empty: Can't be empty
+  password_has_been_reset: Password has been reset.
+  expired: Password reset has expired
