@@ -46,5 +46,6 @@ AllCops:
     - "config/**/*"
     - "app/channels/application_cable/connection.rb"
     - "app/channels/application_cable/channel.rb"
+    - "app/uploaders/picture_uploader.rb"
     - "bin/**/*"
     - "db/**/*"

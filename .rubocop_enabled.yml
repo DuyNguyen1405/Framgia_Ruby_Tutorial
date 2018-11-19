@@ -442,7 +442,7 @@ Layout/SpaceInsideBlockBraces:
                  Checks that block braces have or don't have surrounding space.
                  For blocks taking parameters, checks that the left brace has
                  or doesn"t have trailing space.
-  Enabled: true
+  Enabled: false
 
 Layout/SpaceAroundEqualsInParameterDefault:
   Description: >-
